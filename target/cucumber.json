@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-07T02:15:57.134Z",
+        "line": 4,
+        "name": "Check category opens with valid credentials",
+        "description": "",
+        "id": "grocery-category-functionalities;check-category-opens-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Open the target home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click on category",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click on grocery",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is navigate to a scroll box",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Grocery category functionalities",
+    "description": "",
+    "id": "grocery-category-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/groceryTarget.feature",
+    "tags": []
+  }
+]
