@@ -1,0 +1,4 @@
+2021-09-06 20:08:06.347 [main][5833] INFO  step_defenitions.CategoryGrocery - User is in Target home page
+2021-09-06 20:08:06.493 [main][5979] INFO  step_defenitions.CategoryGrocery - User click on category
+2021-09-06 20:08:06.653 [main][6139] INFO  step_defenitions.CategoryGrocery - User click on grocery
+2021-09-06 20:08:06.654 [main][6140] INFO  step_defenitions.CategoryGrocery - User is in the grocery list
