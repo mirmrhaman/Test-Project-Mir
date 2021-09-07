@@ -19,7 +19,7 @@ public class CategoryGrocery {
     private static final Logger LOGGER = LogManager.getLogger(CategoryGrocery.class);
     WebDriver driver;
 
-    @Given("Open the target home page")
+    @Given("^Open the target home page$")
     public void navigateToHomePage() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -27,19 +27,19 @@ public class CategoryGrocery {
         LOGGER.info("User is in Target home page");
     }
 
-    @When("User click on category")
+    @When("^User click on category$")
     public void userClickOnCategory() {
         ActOn.element(driver, Category).click();
         LOGGER.info("User click on category");
     }
 
-    @And("User click on grocery")
+    @When("^User click on grocery$")
     public void clickOnCategory() {
         ActOn.element(driver,Grocery).click();
         LOGGER.info("User click on grocery");
     }
 
-    @Then("user is navigate to a scroll box")
+    @Then("^user is navigate to a scroll box$")
     public void openScrollBox() {
         LOGGER.info("User is in the grocery list");
     }
